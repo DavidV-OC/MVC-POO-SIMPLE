@@ -10,4 +10,5 @@
 //include '';
 
 //vue
-echo 'page home';
+//echo 'page home';
+include 'views\\home.php';

@@ -1,10 +1,3 @@
-
-/**
- * Created by PhpStorm.
- * User: David
- * Date: 19/11/2018
- * Time: 21:09
- */
 <!DOCTYPE>
 <html>
 <head>
@@ -26,7 +19,7 @@
 
 <p>Bienvenue sur ma page avec du style!
 
-<p>Il lui manque des images, mais au moins, elle a du style. Et elle a desliens, même s'ils ne mènent nulle part...
+<p>Il lui manque des images, mais au moins, elle a du style. Et elle a des liens, même s'ils ne mènent nulle part...
 &hellip;
 
 <p>Je devrais étayer, mais je ne sais comment encore.

@@ -14,10 +14,14 @@ class router
      */
     public function run($controller){
 
-        if(file_exists("controller\\" . $controller . ".php")){
-            include("controller\\" . $controller . ".php");
+        if (!is_null($controller)){
+            if(file_exists("controller\\" . $controller . ".php")){
+                include("controller\\" . $controller . ".php");
+            }else{
+                include("controller\\404.php");
+            }
         }else{
-            include("controller\\404.php");
+            include("controller\home.php");
         }
 
 
