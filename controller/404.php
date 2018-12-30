@@ -6,4 +6,5 @@
  * Time: 21:01
  */
 
-echo "page 404";
+//echo "page 404";
+include 'views\\404.php';

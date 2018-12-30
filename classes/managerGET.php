@@ -6,6 +6,9 @@
  * Time: 16:30
  */
 
+//TODO: rendre localGET sain
+//TODO: faire un singleton de cette classe
+
 class managerGET
 {
     private $localGET = array();
@@ -15,7 +18,6 @@ class managerGET
     }
     public function __call($name, $arguments)
     {
-        // TODO: Implement __call() method.
         if(!array_key_exists($name, $this->localGET)){
             return null;
         }else{
@@ -24,5 +26,3 @@ class managerGET
     }
 
 }
-//TODO: rendre localGET sain
-//TODO: faire un singleton de cette classe
