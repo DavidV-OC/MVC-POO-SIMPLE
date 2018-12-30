@@ -7,6 +7,7 @@
  */
 
 //db
-include '';
+//include '';
 
 //vue
+echo 'page home';

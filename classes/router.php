@@ -8,16 +8,16 @@
 
 class router
 {
-    private $page;
 
     /**
      * @param $controller
      */
     public function run($controller){
-        if(file_exists('controller\'' . $controller . '.php')){
-            include 'controller\'' . $controller . '.php';
+
+        if(file_exists("controller\\" . $controller . ".php")){
+            include("controller\\" . $controller . ".php");
         }else{
-            include 'controller\404.php';
+            include("controller\\404.php");
         }
 
 
