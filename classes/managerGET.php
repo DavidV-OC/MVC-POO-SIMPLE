@@ -9,12 +9,15 @@
 //TODO: rendre localGET sain
 //TODO: faire un singleton de cette classe
 
+include 'classes\sanitize.php';
+
 class managerGET
 {
     private $localGET = array();
 
     public function __construct(){
-        $this->localGET = $_GET;
+        $sanitize = new sanitizeData();
+        $this->localGET = $sanitize->sanitize($_GET);
     }
     public function __call($name, $arguments)
     {
