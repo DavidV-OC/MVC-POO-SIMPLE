@@ -5,8 +5,8 @@
  * Date: 30/12/2018
  * Time: 16:30
  */
+namespace app;
 
-//TODO: rendre localGET sain
 //TODO: faire un singleton de cette classe
 
 include 'classes\sanitize.php';

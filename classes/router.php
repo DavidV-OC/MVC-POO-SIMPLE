@@ -5,6 +5,7 @@
  * Date: 19/11/2018
  * Time: 20:32
  */
+namespace app;
 
 class router
 {

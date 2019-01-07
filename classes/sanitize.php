@@ -5,6 +5,7 @@
  * Date: 30/12/2018
  * Time: 22:30
  */
+namespace app;
 
 class sanitizeData
 {

@@ -15,16 +15,17 @@
 </ul>
 
 <!-- Contenu principal -->
-<h1>Blog</h1>
+<h1>Page de connection</h1>
 
-<p>Bienvenue sur ma page avec du style!
+<h2>Veuillez inscrire vos données de compte</h2>
 
-<p>Il lui manque des images, mais au moins, elle a du style. Et elle a des liens, même s'ils ne mènent nulle part...
-    &hellip;
+<form method="post" action="index.php?page=connect">
+    <label for="login">Login</label><input type="text" placeholder="login" name="login"><br>
+    <label for="mdp">Mot de passe</label><input type="password" name="mdp"><br>
+    <input type="submit" value="Valider"><br>
+</form>
 
-<p>Je devrais étayer, mais je ne sais comment encore.
 
-    <!-- Signer et dater la page, c'est une question de politesse! -->
 <address>Fait le 5 avril 2004<br>
     par moi.</address>
 

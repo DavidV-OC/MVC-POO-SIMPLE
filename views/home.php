@@ -11,7 +11,7 @@
   <li><a href="index.php?page=home">Home page</a>
   <li><a href="index.php?page=actu">Actu</a>
   <li><a href="index.php?page=blog">Blog</a>
-  <li><a href="index.php?page=admin">Admin</a>
+  <li><a href="index.php?page=connect">Connexion</a>
 </ul>
 
 <!-- Contenu principal -->
