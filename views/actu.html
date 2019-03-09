@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>Ma première page avec du style : {{ titre }}</title>
+</head>
+
+<body>
+
+<!-- Menu de navigation du site -->
+<ul class="navbar">
+    <li><a href="index.php?page=home">Home page</a>
+    <li><a href="index.php?page=actu">Actu</a>
+    <li><a href="index.php?page=blog">Blog</a>
+    <li><a href="index.php?page=connect">Connexion</a>
+</ul>
+
+<!-- Contenu principal -->
+<h1>Page actu</h1>
+
+<p>Bienvenue sur ma page avec du style!</p>
+
+<p>Il lui manque des images, mais au moins, elle a du style. Et elle a des liens, même s'ils ne mènent nulle part...</p>
+    &hellip;
+
+<p>Je devrais étayer, mais je ne sais comment encore.
+    {% filter upper %}Hello {{ titre }}! {{ article }} {% endfilter %}</p>
+    <!-- Signer et dater la page, c'est une question de politesse! -->
+<address>Fait le 5 avril 2004<br>
+    par moi.</address>
+
+</body>
+</html>

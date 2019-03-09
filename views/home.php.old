@@ -1,0 +1,4 @@
+{ set $DIR_ASSETS =
+{% block header}
+{% block body}
+{% block footer}

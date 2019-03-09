@@ -5,12 +5,12 @@
  * Date: 30/12/2018
  * Time: 22:05
  */
-use app as app;
+use app\session;
 
 //session
-$session = new app\session();
+$session = new session();
 
-$session->set("nom", "DAvid");
+$session->setValue("nom", "DAvid");
 
 //db connection
 

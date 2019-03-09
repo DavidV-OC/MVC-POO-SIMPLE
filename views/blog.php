@@ -17,12 +17,7 @@
 <!-- Contenu principal -->
 <h1>Blog</h1>
 
-<p>Bienvenue sur ma page avec du style!
-
-<p>Il lui manque des images, mais au moins, elle a du style. Et elle a des liens, même s'ils ne mènent nulle part...
-    &hellip;
-
-<p>Je devrais étayer, mais je ne sais comment encore.
+<p></p>
 
     <!-- Signer et dater la page, c'est une question de politesse! -->
 <address>Fait le 5 avril 2004<br>

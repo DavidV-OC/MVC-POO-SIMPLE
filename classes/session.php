@@ -24,12 +24,12 @@ class session
         return self::$_instance;
     }
 
-    public function set($key, $value)
+    public function setValue($key, $value)
     {
         return $_SESSION[$key] = $value;
     }
 
-    public function get($key)
+    public function getValue($key)
     {
         return $_SESSION[$key];
     }
